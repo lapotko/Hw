@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import "_top-part.scss";
+@import "_bottom-part.scss";
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.topBannerWrap {
+  height: 610px;
+  background-color: #e8e8e8;
+}
+.topBannerContent {
+  height: inherit;
+  background: url(../images/topHeaderBack.png) no-repeat 554px 0;
+  background-size: 550px;
+  display: flex;
+  align-items: center;
+}
+.topBannerSign {
+  height: 92px;
+  border-left: 12px solid #f16d7f;
+  padding-left: 12px;
+}
+.topBannerSign div:first-child {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 41px;
+}
+.topBannerSign div:last-child {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 32px;
+  margin-top: 19px;
+}
+.offers > div {
+  position: relative;
+}
+.offers .label {
+  position: absolute;
+  top: 25px;
+  padding: 15px 20px;
+  background: white;
+  text-transform: uppercase;
+}
+.labelTop {
+  font-size: 18px;
+  color: #222222;
+  font-weight: 700;
+}
+.labelBottom {
+  font-size: 30px;
+  color: #f16d7f;
+  font-weight: 900;
+}
