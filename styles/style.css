@@ -814,6 +814,11 @@ body {
   margin-top: 19px;
 }
 
+.offers {
+  display: -ms-grid;
+  display: grid;
+}
+
 .offers > div {
   position: relative;
 }
