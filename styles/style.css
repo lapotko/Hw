@@ -814,6 +814,18 @@ body {
   margin-top: 19px;
 }
 
+.offers {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 264px 264px 264px;
+      grid-template-rows: 264px 264px 264px;
+  -ms-grid-rows: minmax 264px 264px 264px;
+      grid-template-rows: minmax 264px 264px 264px;
+}
+
 .offers > div {
   position: relative;
 }
@@ -836,5 +848,41 @@ body {
   font-size: 30px;
   color: #f16d7f;
   font-weight: 900;
+}
+
+.for-men-picture {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.accesories-picture {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.women-picture {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.for-kids-picture {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
 }
 /*# sourceMappingURL=style.css.map */

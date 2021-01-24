@@ -38,6 +38,13 @@ body {
   line-height: 32px;
   margin-top: 19px;
 }
+.offers {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 264px 264px 264px;
+  grid-template-rows: minmax (264px 264px 264px);
+}
 .offers > div {
   position: relative;
 }
@@ -57,4 +64,28 @@ body {
   font-size: 30px;
   color: #f16d7f;
   font-weight: 900;
+}
+.for-men-picture {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.accesories-picture {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.women-picture {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.for-kids-picture {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
